@@ -2,12 +2,11 @@ import React from "react";
 import Title from "../layouts/Title";
 import {
   mzadqatar,
-  breezeline,
-  amc,
-  authur,
   hightlights,
   solution,
   doubleup,
+  atlanta,
+  futurenostics,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -28,35 +27,37 @@ const Projects = () => {
           title="Highlight Films"
           des="Highlight Films is an internationally recognized video, film, and television production company, providing professional production services across the Middle East."
           src={hightlights}
+          link="https://www.highlight.co.il/"
         />
         <ProjectsCard
           title="SolutionWired"
           des="Solution Wired offers a comprehensive spectrum of services, including expert electrical installations, meticulous maintenance, and reliable gas solutions."
           src={solution}
+          link="https://www.solutionwired.co.uk/"
         />
         <ProjectsCard
           title="Double Up Marketing"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des="Double Up Marketing Group stands as the premier performance marketing agency for growing E-commerce brands, law firms and value-add partnerships."
           src={doubleup}
+          link="https://doubleupmarketing.io/"
         />
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={amc}
+          title="Futurenostics"
+          des="Developed a professional company services website for Futurenostics, highlighting key offerings, client testimonials, and enabling easy contact and service inquiries through an intuitive interface."
+          src={futurenostics}
+          link="https://www.futurenostics.com/"
         />
         <ProjectsCard
           title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des="Developed a comprehensive e-commerce website, enabling seamless online shopping with features such as user-friendly navigation, secure payment processing, and real-time order tracking."
           src={mzadqatar}
+          link="https://www.futurenostics.com/"
         />
         <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={authur}
+          title="Atlanta Happens"
+          des="Atlanta Happens have expertise in many aspects of personal injury law.They fight to ensure for clients and their families receive the compensation, care and support they deserve."
+          src={atlanta}
+          link="https://www.atlantahappens.com/"
         />
       </div>
     </section>

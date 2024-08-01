@@ -10,6 +10,8 @@ import contactImg from "./images/contact/contactImg.png";
 import hightlights from "./images/projects/Screenshot 2024-08-01 at 12.12.08 AM.png";
 import solution from "./images/projects/Screenshot 2024-08-01 at 12.13.31 AM.png";
 import doubleup from "./images/projects/Screenshot 2024-08-01 at 12.14.10 AM.png";
+import atlanta from "./images/projects/Screenshot 2024-08-01 at 6.36.59 PM.png";
+import futurenostics from "./images/projects/Screenshot 2024-08-01 at 6.39.25 PM.png";
 
 export {
   bannerImg,
@@ -24,4 +26,6 @@ export {
   hightlights,
   solution,
   doubleup,
+  atlanta,
+  futurenostics,
 };
