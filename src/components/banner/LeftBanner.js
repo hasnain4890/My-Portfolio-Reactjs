@@ -29,13 +29,13 @@ const LeftBanner = () => {
         <p className="text-base font-bodyFont leading-6 tracking-wide">
           MERN Stack Developer with two years of hands-on experience in creating
           and managing web applications. My portfolio includes diverse projects
-          such as Arthur.ai, AMC, and ShareRegistrar, demonstrating my
-          capability in both frontend and backend technologies, including React,
-          Node.js, and MongoDB. I communicate effectively, ensuring smooth
-          collaboration in team settings, and prioritize meeting project
-          deadlines. I'm looking to apply my technical skills and collaborative
-          approach in a role that challenges me and allows for continued
-          professional growth.
+          such as Double Up Marketing, Highlights films, and Solution wired,
+          demonstrating my capability in both frontend and backend technologies,
+          including React, Node.js, and MongoDB. I communicate effectively,
+          ensuring smooth collaboration in team settings, and prioritize meeting
+          project deadlines. I'm looking to apply my technical skills and
+          collaborative approach in a role that challenges me and allows for
+          continued professional growth.
         </p>
       </div>
       {/* Media */}
