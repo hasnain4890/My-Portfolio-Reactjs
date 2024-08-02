@@ -40,14 +40,13 @@ const Navbar = () => {
           <FiMenu />
         </span>
         {showMenu && (
-          <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
+          <div className="w-[100%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
                 <img className="w-32" src={bannerImg} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  MERN Stack Developer with two years of hands-on experience in
+                  creating and managing web applications.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -76,17 +75,17 @@ const Navbar = () => {
                 </h2>
                 <div className="flex gap-4">
                   <span className="bannerIcon">
-                    <a
+                    {/* <a
                       href="https://www.facebook.com/profile.php?id=100076531633837"
                       target="_blank"
                       rel="noopener noreferrer"
-                    >
-                      <FaFacebookF />
-                    </a>
+                    > */}
+                    <FaFacebookF />
+                    {/* </a> */}
                   </span>
                   <span className="bannerIcon">
                     <a
-                      href="https://github.com/shahzeb44100"
+                      href="https://github.com/hasnain4890"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -95,7 +94,7 @@ const Navbar = () => {
                   </span>
                   <span className="bannerIcon">
                     <a
-                      href="https://www.linkedin.com/in/shah-zeb-/"
+                      href="https://www.linkedin.com/in/hasnain-ahmad-a66456178/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

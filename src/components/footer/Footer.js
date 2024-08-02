@@ -5,7 +5,7 @@ import { bannerImg } from "../../assets/index";
 const Footer = () => {
   return (
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
-      <div className="w-full h-full flex flex-col gap-8">
+      <div className="w-full h-full flex flex-col gap-8 items-center justify-center md:items-start md:justify-start">
         <img className="w-32" src={bannerImg} alt="logo" />
         <div className="flex gap-4">
           <span className="bannerIcon">
@@ -37,7 +37,7 @@ const Footer = () => {
           </span>
         </div>
       </div>
-      <div className="w-full h-full">
+      <div className="w-full h-full flex items-center justify-center flex-col">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           Quick Link
         </h3>
@@ -74,7 +74,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="w-full h-full">
+      <div className="w-full h-full flex items-center justify-center flex-col">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           RESOURCES
         </h3>
@@ -111,7 +111,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="w-full h-full">
+      <div className="w-full h-full md:block hidden">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           DEVELOPERS
         </h3>
