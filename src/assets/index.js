@@ -1,4 +1,4 @@
-import bannerImg from "./images/Hasnainimage-removebg.png";
+import bannerImg from "./images/ImtiazImage-removebg.png";
 import mzadqatar from "./images/projects/mzadqatar.png";
 import breezeline from "./images/projects/breezeline.png";
 import authur from "./images/projects/authur.png";

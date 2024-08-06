@@ -4,7 +4,7 @@ import Media from "./Media";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["MERN Stack Developer", "React Expert", "Professional Coder."],
+    words: ["DEVOPS Engineer", "Cloud Architect", "Kubernetes Expert."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -16,7 +16,7 @@ const LeftBanner = () => {
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-4xl text-center md:text-start md:text-6xl font-bold text-white">
           Hi, I'm{" "}
-          <span className="text-designColor capitalize">Hasnain Ahmad</span>
+          <span className="text-designColor capitalize">Muhammad Imtiaz</span>
         </h1>
         <h2 className="text-xl text-center md:text-start md:text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -27,15 +27,13 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          MERN Stack Developer with two years of hands-on experience in creating
-          and managing web applications. My portfolio includes diverse projects
-          such as Double Up Marketing, Highlights films, and Solution wired,
-          demonstrating my capability in both frontend and backend technologies,
-          including React, Node.js, and MongoDB. I communicate effectively,
-          ensuring smooth collaboration in team settings, and prioritize meeting
-          project deadlines. I'm looking to apply my technical skills and
-          collaborative approach in a role that challenges me and allows for
-          continued professional growth.
+          A professional individual having 5 years of industry experience in designing
+          and architecting solutions for multiple projects, On-prem and cloud, while ensuring reliability, quality, and time to market. With a
+          strong track record of completing numerous impactful projects.
+          Proficient in a range of DevOps tech stacks including popular public Cloud providers (AWS & GCP), Docker, 
+          Kubernetes, CI/CD, Logging & monitoring, Ansible & Terraform (IaC tool), etc. 
+          DevOps Technologies, Cloud, and Containerization are my areas of expertise.
+          Leading a team of DevOps engineers, enabling them to onboard quickly and mentoring them technically.
         </p>
       </div>
       {/* Media */}

@@ -19,7 +19,7 @@ const Footer = () => {
           </span>
           <span className="bannerIcon">
             <a
-              href="https://github.com/hasnain4890"
+              href="https://github.com/Muhammad-Imtiaz"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -28,7 +28,7 @@ const Footer = () => {
           </span>
           <span className="bannerIcon">
             <a
-              href="https://www.linkedin.com/in/hasnain-ahmad-a66456178/"
+              href="https://www.linkedin.com/in/muhammad-imtiaz-alam/"
               target="_blank"
               rel="noopener noreferrer"
             >
